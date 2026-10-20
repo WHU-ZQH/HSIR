@@ -1,0 +1,49 @@
+# Model arguments
+model_revision: main
+torch_dtype: bfloat16
+attn_implementation: eager
+
+# Data training arguments
+system_prompt: "Solve the medical multiple-choice question. Respond in the following format, placing only the option letter A, B, C or D in the answer: <think>\nYour reasoning\n</think>\n<answer>\nA\n</answer>"
+
+# GRPO trainer config
+bf16: true
+use_vllm: true
+vllm_device: auto
+vllm_gpu_memory_utilization: 0.7
+do_eval: false
+gradient_accumulation_steps: 1
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: false
+log_completions: true
+log_level: info
+logging_first_step: true
+logging_steps: 100
+logging_strategy: steps
+lr_scheduler_type: cosine
+max_prompt_length: 512
+max_completion_length: 2048
+max_steps: 300
+num_generations: 8
+num_train_epochs: 1
+overwrite_output_dir: false
+per_device_eval_batch_size: 16
+# 7 training ranks * 16 completions / 8 generations = 14 prompts/update.
+per_device_train_batch_size: 16
+push_to_hub: false
+report_to: []
+reward_funcs:
+- accuracy_medical
+- tag_count
+- indiv_score_medical
+reward_weights:
+- 1.0
+- 1.0
+- 0.2
+save_strategy: "steps"
+save_steps: 200
+save_only_model: true
+save_total_limit: 10
+seed: 42
+warmup_ratio: 0.1

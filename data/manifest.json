@@ -1,0 +1,113 @@
+{
+  "prepared_date": "2026-10-20",
+  "source": "Author-provided project data",
+  "images_included": false,
+  "files": [
+    {
+      "file": "GSM8K/gsm8k_grpo_unlabeled.json",
+      "records": 5926,
+      "fields": [
+        "instruction",
+        "output"
+      ],
+      "source_sha256": "cf6355f87d7a9de98dc815ab80578422b9f9b4d17388e0dcf6f73d3a6882068e",
+      "sha256": "cf6355f87d7a9de98dc815ab80578422b9f9b4d17388e0dcf6f73d3a6882068e",
+      "bytes": 3466611,
+      "preparation": []
+    },
+    {
+      "file": "GSM8K/gsm8k_train_ds_seed.json",
+      "records": 1000,
+      "fields": [
+        "groud_truth_solution",
+        "problem",
+        "reasoning_solution",
+        "system"
+      ],
+      "source_sha256": "050eccbfbfa7c5145ba6a7b04b8435937e20b477c001d005d608cba714d2dc98",
+      "sha256": "050eccbfbfa7c5145ba6a7b04b8435937e20b477c001d005d608cba714d2dc98",
+      "bytes": 4913018,
+      "preparation": []
+    },
+    {
+      "file": "GSM8K/gsm8k_train_ds_unlabeled.json",
+      "records": 5926,
+      "fields": [
+        "groud_truth_solution",
+        "problem",
+        "system"
+      ],
+      "source_sha256": "c78e82f4e054280ae945e38fb251251c4ce86f51d0a21763b982e6a139d26f69",
+      "sha256": "c78e82f4e054280ae945e38fb251251c4ce86f51d0a21763b982e6a139d26f69",
+      "bytes": 5410339,
+      "preparation": []
+    },
+    {
+      "file": "MedQA/medqa_grpo_unlabeled.json",
+      "records": 8366,
+      "fields": [
+        "instruction",
+        "output"
+      ],
+      "source_sha256": "e615b28fe8df081757dcc6d82020377feb1960d108bc4a03271e5c7ab643abc8",
+      "sha256": "e615b28fe8df081757dcc6d82020377feb1960d108bc4a03271e5c7ab643abc8",
+      "bytes": 9268662,
+      "preparation": []
+    },
+    {
+      "file": "MedQA/medqa_train_ds_seed.json",
+      "records": 1000,
+      "fields": [
+        "input",
+        "instruction",
+        "label",
+        "output",
+        "system"
+      ],
+      "source_sha256": "d91b5a82987dbf2be0ac3ec221118b4c16722bdd5c751ac89cb5c2293f55001a",
+      "sha256": "d91b5a82987dbf2be0ac3ec221118b4c16722bdd5c751ac89cb5c2293f55001a",
+      "bytes": 5573416,
+      "preparation": []
+    },
+    {
+      "file": "MedQA/medqa_train_ds_unlabeled.json",
+      "records": 8366,
+      "fields": [
+        "input",
+        "instruction",
+        "label",
+        "system"
+      ],
+      "source_sha256": "9e84012eb663cd05b2d419df6170695bd3310879f8ac46db4248523e250574de",
+      "sha256": "9e84012eb663cd05b2d419df6170695bd3310879f8ac46db4248523e250574de",
+      "bytes": 12355716,
+      "preparation": []
+    },
+    {
+      "file": "testset/gsm8k_testset.json",
+      "records": 1319,
+      "fields": [
+        "answer",
+        "problem",
+        "system"
+      ],
+      "source_sha256": "d00247c79c863f3d9213e55e9623023b00d0ca5bf94fb0a15f8755335cad2261",
+      "sha256": "d00247c79c863f3d9213e55e9623023b00d0ca5bf94fb0a15f8755335cad2261",
+      "bytes": 826098,
+      "preparation": []
+    },
+    {
+      "file": "testset/medqa_testset.json",
+      "records": 1273,
+      "fields": [
+        "instruction",
+        "output",
+        "system"
+      ],
+      "source_sha256": "9f21009ae2f3ac8fc900b4684da427bb311325875b7dbfeda88084d2ec652648",
+      "sha256": "9f21009ae2f3ac8fc900b4684da427bb311325875b7dbfeda88084d2ec652648",
+      "bytes": 1885852,
+      "preparation": []
+    }
+  ]
+}
