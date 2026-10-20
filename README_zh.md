@@ -1,6 +1,7 @@
 # HSIR 代码说明
 
-本目录是论文 [Better, Faster: Harnessing Self-Improvement in Large Reasoning Models](https://arxiv.org/abs/2605.24998) 的独立代码整理版。
+本目录是论文 [Better, Faster: Harnessing Self-Improvement in Large Reasoning Models](https://arxiv.org/abs/2605.24998) （ICML 2026）的独立代码整理版。
+论文链接：[ICML 2026](https://icml.cc/virtual/2026/poster/64514) · [OpenReview](https://openreview.net/forum?id=MqWVrGh0vH) · [arXiv](https://arxiv.org/abs/2605.24998)。
 完整安装、训练与评测命令见 [英文 README](README.md)。
 
 - `run.py`：可配置路径、GPU 数量和训练模式的入口；加 `--dry-run` 只预览命令。

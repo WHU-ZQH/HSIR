@@ -1,6 +1,6 @@
 # Experiment configuration and validation
 
-Paper: arXiv:2605.24998v1. This release provides iterative SFT/DPO and H-GRPO
+Paper: ICML 2026 (arXiv:2605.24998v1). This release provides iterative SFT/DPO and H-GRPO
 for MedQA and GSM8K. Model checkpoints and historical training outputs are
 stored separately.
 
